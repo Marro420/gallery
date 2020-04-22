@@ -1,0 +1,258 @@
+body{
+	margin: 0 auto;
+	padding: 0;
+	max-width: 1440px;
+	font-family: Roboto Condensed;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 21px;
+	letter-spacing: 0.04em;
+	border-color: white;
+}
+
+#menu{
+	display: inline-block;
+}
+#menu a:hover{
+	color: #6F5046;
+}
+.checkbox3:checked + #menu{
+	visibility: visible;
+
+}
+h1{
+
+}
+.checkbox3:checked + label > .hamburger3 > .bar3{
+    transform: rotate(45deg);
+    height: 3px;
+    background-color: transparent;
+}
+
+.checkbox3:checked + label > .hamburger3 > .bar2{
+    transform: rotate(-45deg);
+    height: 3px;
+    background-color: transparent;
+}
+
+.checkbox3:checked + label > .hamburger3 > .bar4{
+    transform: rotate(-45deg);
+    height: 3px;
+    width: 27px;
+
+}
+#head-bar{
+max-width: 1440px;
+
+}
+#head-bar nav{
+	padding-top: 18px;
+}
+#head-bar a{
+	color: white;
+	text-decoration: none;
+	color: black;
+}
+#head-bar ul{
+	margin:0;
+	padding: 0;
+	list-style: none;
+	padding-left: 13px;
+
+}
+#head-bar li{
+	padding-right: 30px;
+	display: inline;
+
+}
+
+.container{
+max-width: 1000px;
+	/* width: 80vw; */
+	max-height: 540px;
+	height:100%;
+
+	margin: 15vh auto 0;
+}
+#second{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin-top: 700px;
+	background-color: #EDE3D6;
+}
+#history{
+	position: relative;
+	height: 829px;
+	opacity: 1;
+	text-align: left;
+}
+#second img{
+	align-self:center;
+	width: 35vw;
+	height: 30vw;
+	margin-left: 4%;
+}
+#headline{
+	margin: 0 0 36px 118px;
+	padding-top: 118px;
+font-family: Roboto Slab;
+font-style: normal;
+font-weight: normal;
+font-size: 45px;
+line-height: 59px;
+/* identical to box height */
+	background-color: #EDE3D6;
+letter-spacing: 0.21em;
+}
+.history-bold{
+	margin: 0 0 31px 118px;
+		background-color: #EDE3D6;
+	font-family: Roboto Condensed;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 26px;
+letter-spacing: 0.03em;
+
+}
+.history-text{
+	margin-left: 118px;
+	/* width: 366px; */
+	/*padding-bottom: 140px;*/
+font-family: Roboto Condensed;
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 28px;
+text-align: left;
+
+	background-color: #EDE3D6;
+}
+
+
+
+
+
+
+
+
+#footer{
+	padding-top: 150px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+#left-footer{
+
+	background-color: #6F5046;
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-family: Roboto Condensed;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 20px;
+	line-height: 28px;
+	text-align: left;
+	color: white;
+}
+#right-footer{
+
+
+	padding-top: 82px;
+	position: relative;
+}
+#right-footer ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-family: Roboto Condensed;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 20px;
+	line-height: 28px;
+	text-align: center;
+}
+
+#left-footer ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-family: Roboto Condensed;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 20px;
+	line-height: 28px;
+
+}
+#left-footer a{
+	text-decoration: none;
+	color: white;
+}
+#left-footer-text{
+	width: 280px;
+	padding: 84px 0 0 120px;
+}
+#label{
+	position: absolute;
+	right: 216px;
+	top: 237px;
+	font-family: Roboto Condensed;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 16.725px;
+	line-height: 20px;
+	text-align: right;
+	letter-spacing: 0.1em;
+
+}
+
+#label a{
+	text-decoration: none;
+	color: black;
+}
+#tel{
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 28px;
+
+
+letter-spacing: 0.13em;
+
+}
+#mail{
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 16px;
+
+
+letter-spacing: 0.28em;
+
+}
+#end-text{
+	height: 33px;
+	padding-bottom: 54px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 16px;
+}
+#end-text2{
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 14px;
+	letter-spacing: 0.14em;
+	padding-bottom: 82px;
+}
+#right-footer a{
+	text-decoration: none;
+	color: black;
+}
